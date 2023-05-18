@@ -1,21 +1,23 @@
 {
-  "name": "danssportfolio",
+  "name": "nuxportfolio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "nanoid": "^4.0.0",
+    "aos": "^2.3.4",
+    "framer-motion": "^8.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.5.0"
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.5.0",
+    "react-scroll": "^1.8.9",
+    "typed.js": "^2.0.14"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",

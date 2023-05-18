@@ -1,13 +1,27 @@
-import React from 'react'
-import { Route, Routes} from 'react-router-dom'
+import React, { useEffect } from "react";
+import Index from "./pages/Index";
+import LoadingScreen from "./components/LoadingScreen";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  // Library Initialyze
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      delay: 30,
+      offset: 10,
+      disable: false,
+    });
+    Aos.refresh();
+  }, []);
+
   return (
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='*' element={<Home/>}/>
-    </Routes>
-  )
+    <>
+      <LoadingScreen />
+      <Index />
+    </>
+  );
 }
 
-export default App
+export default App;

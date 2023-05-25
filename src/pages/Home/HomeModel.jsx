@@ -1,13 +1,19 @@
 import React from 'react'
-import SocialMedia from '../../components/SocialMedia'
 import { Link } from 'react-scroll'
 
+import SocialMedia from '../../components/SocialMedia'
 import { personalinfo } from '../../utils/constants'
-import profile from '../../assets/images/female2.jpg'
+import profile from '../../assets/images/avatar-home-model.jpg'
 
 
-export default function Hero1() {
+export default function HomeModel() {
   return (
+    /* This is a React component that renders a section of a webpage with a hero image and some text
+    content. The section has an ID of "hero" and a class name of "text-gray-600 mt-24 pb-16". The
+    section contains a flexbox with two child elements: a div with a class name of "md:w-1/2" and an
+    image with a class name of "object-cover md:w-1/3 w-5/6 object-center". The div contains some
+    text content, including a heading, some social media links, and two buttons. The image is a
+    profile picture. */
     <section id='hero' className="text-gray-600 mt-24 pb-16">
       <div className='flex flex-col md:flex-row gap-12 md:items-center justify-center'>
         <div className='md:w-1/2'>
@@ -29,7 +35,7 @@ export default function Hero1() {
                 smooth={true}
                 duration={500}
                 offset={-150}
-                className="ml-4 inline-flex text-gray-700 bg-gray-100 dark:bg-gray-700 dark:text-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 text-lg"
+                className="ml-4 cursor-pointer inline-flex text-gray-700 bg-gray-100 dark:bg-gray-700 dark:text-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:scale-105 text-lg"
               >
                 Hire Me
               </Link>         

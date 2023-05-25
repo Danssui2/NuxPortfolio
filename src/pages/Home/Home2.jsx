@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import profile from "../../assets/images/male1.png";
 import Typed from "typed.js";
 
+import profile from "../../assets/images/avatar-home2.png";
 import { BsArrowDown } from "react-icons/bs";
 import SocialMedia from "../../components/SocialMedia"
 
-export default function Hero5() {
+export default function Home2() {
 
   useEffect(() => {
     const typed = new Typed(".typed-animation", {
@@ -20,6 +20,14 @@ export default function Hero5() {
       typed.destroy();
     };
   }, []); 
+
+/* This is a React component that represents the hero section of a webpage. It includes an image of
+a person, their name, a brief description, and social media links. The section has a background
+grid and is positioned 20 pixels from the top of the page. The image is circular and has a
+spinner animation around it. The name is displayed using a typed animation effect. The social
+media links are displayed as buttons with a gray background and rounded corners. Finally, there
+is an arrow icon at the bottom left of the section that animates to indicate that the user
+should scroll down. */
 
   return (
     <section
@@ -44,7 +52,7 @@ export default function Hero5() {
             <span className="typed-animation text-primary-500">Dior Nux</span>
           </h1>
           <p className="text-gray-600 text-[16px] dark:text-gray-400 text-center w-2/3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, animi, ullam labore reprehenderit unde minima quidem itaque.
+            I am a versatile multitalent freelancer, adept at seamlessly navigating multiple professions and delivering exceptional results.
           </p>
         </div>
 

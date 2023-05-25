@@ -34,15 +34,6 @@
   src: url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
        url('../fonts/montserrat-v25-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* montserrat-600italic - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Montserrat';
-  font-style: italic;
-  font-weight: 600;
-  src: url('../fonts/montserrat-v25-latin-600italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('../fonts/montserrat-v25-latin-600italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
 
 /* montserrat-700 - latin */
 @font-face {
@@ -126,7 +117,7 @@ p, label {
 }
 
 section {
-  @apply max-w-[100rem] xl:px-[96px] lg:px-[86px] md:px-[56px] px-[46px];
+  @apply max-w-[150rem] xl:px-[96px] lg:px-[86px] md:px-[56px] px-[8%];
 }
 
 .section-color-sec {

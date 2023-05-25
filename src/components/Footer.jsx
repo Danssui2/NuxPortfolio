@@ -4,9 +4,9 @@ import SocialMedia from "./SocialMedia"
 function Footer() {
   return (
     <footer className="text-gray-600 w-screen">
-      <div className="px-4 w-full py-8 mx-auto md:flex justify-around items-center">
+      <div className="w-full py-8 mx-auto md:flex justify-around items-center">
         <div className="md:flex items-center justify-center gap-4">
-          <a className="flex font-medium items-center justify-center text-gray-900">
+          <a href="#" className="flex font-medium items-center justify-center text-gray-900">
             <span className="text-xl mb-2 text-primary-500">Nux</span>
           </a>
 

@@ -35,14 +35,15 @@ export default function Navbar() {
             ${isScrolled ? "bg-gray-50 dark:bg-gray-800" : "bg-transparent"}
           `}
       >
-        <div className="flex lg:px-[86px] md:px-[56px] pl-[46px] pr-[20px] py-5 items-center justify-between">
+        <div className="flex lg:px-[86px] md:px-[56px] pl-[36px] pr-[16px] py-5 items-center justify-between">
  
-          <a className="flex title-font font-medium items-center mr-12 text-gray-900">
+          <a href="#" className="flex title-font font-medium items-center mr-12 text-gray-900">
             <span className="text-xl text-primary-500">Nux</span>
           </a>
 
           <nav className="md:flex hidden items-center text-gray-700 dark:text-gray-300 justify-center">
             <Link
+              href="#hero"
               to="hero"
               activeClass="text-primary-500"
               spy={true}
@@ -54,6 +55,7 @@ export default function Navbar() {
               Home
             </Link>
             <Link
+              href="#about"
               to="about"
               activeClass="text-primary-500"
               spy={true}
@@ -65,6 +67,7 @@ export default function Navbar() {
               About
             </Link>
             <Link
+              href="#service"
               to="service"
               activeClass="text-primary-500"
               spy={true}
@@ -76,6 +79,7 @@ export default function Navbar() {
               Services
             </Link>
             <Link
+              href="#project"
               to="project"
               activeClass="text-primary-500"
               spy={true}
@@ -87,6 +91,7 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
+              href="#blog"
               to="blog"
               activeClass="text-primary-500"
               spy={true}
@@ -98,6 +103,7 @@ export default function Navbar() {
               Blog
             </Link>
             <Link
+              href="#contact"
               to="contact"
               activeClass="text-primary-500"
               spy={true}
@@ -111,6 +117,7 @@ export default function Navbar() {
           </nav>
 
           <Link
+            href="#contact"
             to="contact"
             smooth={true}
             duration={500}
@@ -122,6 +129,7 @@ export default function Navbar() {
 
           <div className="flex gap-4 md:hidden items-center">
             <Link
+              href="#contact"
               to="contact"
               smooth={true}
               duration={500}
@@ -164,6 +172,7 @@ export default function Navbar() {
         >
           <Link
             onClick={() => setIsOpen(!isOpen)}
+            href="#hero"
             to="hero"
             activeClass="text-primary-500"
             spy={true}
@@ -175,6 +184,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
+            href="#about"
             onClick={() => setIsOpen(!isOpen)}
             to="about"
             activeClass="text-primary-500"
@@ -187,6 +197,7 @@ export default function Navbar() {
             About
           </Link>
           <Link
+            href="#service"
             onClick={() => setIsOpen(!isOpen)}
             to="service"
             activeClass="text-primary-500"
@@ -199,6 +210,7 @@ export default function Navbar() {
             Services
           </Link>
           <Link
+            href="#project"
             onClick={() => setIsOpen(!isOpen)}
             to="project"
             activeClass="text-primary-500"
@@ -211,6 +223,7 @@ export default function Navbar() {
             Projects
           </Link>
           <Link
+            href="#blog"
             onClick={() => setIsOpen(!isOpen)}
             to="blog"
             activeClass="text-primary-500"
@@ -223,6 +236,7 @@ export default function Navbar() {
             Blog
           </Link>
           <Link
+            href="#contact"
             onClick={() => setIsOpen(!isOpen)}
             to="contact"
             activeClass="text-primary-500"

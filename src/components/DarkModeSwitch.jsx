@@ -27,12 +27,12 @@ function DarkModeSwitch() {
   }, []);
 
   return (
-    <button
+    <div
       onClick={switchButton}
-      className="bg-transparent text-xl dark:text-gray-300 text-gray-600 hover:scale-105 bg-gray-100 dark:bg-gray-700 rounded-full p-2"
+      className="text-xl dark:text-gray-300 text-gray-600 hover:scale-110 cursor-pointer bg-gray-100 dark:bg-gray-700 rounded-full p-2"
     >
       {mode ? <HiMoon /> : <HiSun />}
-    </button>
+    </div>
   );
 }
 

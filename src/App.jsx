@@ -10,7 +10,7 @@ function App() {
     Aos.init({
       duration: 1000,
       delay: 30,
-      offset: 10,
+      offset: 5,
       disable: false,
     });
     Aos.refresh();

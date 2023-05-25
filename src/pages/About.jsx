@@ -1,10 +1,20 @@
 import React from "react";
+
+import profile from "../assets/images/collage.png";
+
 import Header from "../components/Header";
-import profile from "../assets/images/female1.png";
 import ProgressBar from "../components/ProgressBar";
 import ResumeCard from "../components/ResumeCard";
+
 import { BiDownload } from "react-icons/bi";
 import { personalinfo } from "../utils/constants"
+
+/* The above code is a React component that renders a section with information about the
+developer's background, education, and experience. It includes a profile picture, a brief
+introduction, a list of skills with progress bars, and a button to download the developer's CV.
+The section also includes two grids, one for education and one for experience, each with a list
+of cards that display relevant information. The component uses various CSS classes and
+animations to create a visually appealing layout. */
 
 function About() {
   return (
@@ -31,15 +41,15 @@ function About() {
 
           {/** Story */}
           <p data-aos="fade-left" className="text-gray-600 dark:text-gray-400">
-            I am an experienced web developer with a passion for building user-friendly and scalable web applications. With eight years of experience in the industry, I have worked with clients from various industries, including healthcare, e-commerce, and education. My expertise includes front-end development, back-end development, database management, and server administration.
+            I am a seasoned multi-profession freelancer with a diverse skill set and a passion for delivering exceptional results. With a strong background in various fields, I offer a unique combination of expertise and versatility that enables me to excel in multiple roles. As a freelance professional, I have successfully taken on a range of projects across different industries.
           </p>
 
           {/** Skills */}
           <div className="flex flex-col gap-y-2 mt-5">
-            <ProgressBar skill="HTML" percentage="95" />
-            <ProgressBar skill="CSS" percentage="80" />
-            <ProgressBar skill="JavaScript" percentage="90" />
-            <ProgressBar skill="Node.js" percentage="85" />
+            <ProgressBar skill="Web Developer" percentage="95" />
+            <ProgressBar skill="Designer" percentage="90" />
+            <ProgressBar skill="Photographer" percentage="80" />
+            <ProgressBar skill="Model" percentage="85" />
           </div>
 
           <a href={personalinfo.cvLinkDownload}>
@@ -71,8 +81,8 @@ function About() {
                 year="2017 - 2018"
               />
               <ResumeCard
-                title="Participated in coding bootcamps focused"
-                description="participated in coding bootcamps focused on full-stack web development. These bootcamps would have covered topics such as server-side programming, database management, and web application deployment."
+                title="Bachelor of Arts in Photography"
+                description="During my time at ABC University, I pursued a Bachelor of Arts degree in Photography, immersing myself in a comprehensive curriculum that fostered both technical expertise and creative expression."
                 year="2017 - 2019"
               />
               <ResumeCard
@@ -81,8 +91,8 @@ function About() {
                 year="2018 - 2022"
               />
               <ResumeCard
-                title="Completed courses in UI/UX design and branding"
-                description="strong foundation in graphic design, with a focus on both traditional and digital media design, as well as expertise in key software programs and other areas of design such as UI/UX and branding."
+                title="Modeling Training and Workshops"
+                description="I have undergone comprehensive modeling training and workshops at a reputable modeling school, where I honed my skills and acquired the necessary knowledge to excel in the industry."
                 year="2022 - 2023"
               />
             </div>
@@ -105,8 +115,8 @@ function About() {
                 year="2018 - 2020"
               />
               <ResumeCard
-                title="SEO Manager for many Clients"
-                description="Implemented SEO best practices in website development to improve search engine rankings for clients"
+                title="Photographer at XYZ Company"
+                description="Captured a wide range of subjects, including portraits, events, landscapes, and products, demonstrating a keen eye for composition, lighting, and storytelling."
                 year="2019 - Now"
               />
               <ResumeCard
@@ -115,8 +125,8 @@ function About() {
                 year="2020 - 2022"
               />
               <ResumeCard
-                title="Freelanced for years"
-                description="Freelanced as a web developer for the past 3 years, building custom websites for clients using HTML, CSS, JavaScript, and other technologies"
+                title="Model for XYZ brand"
+                description="Posed for various photoshoots, runway shows, and commercial campaigns, showcasing versatility, confidence, and the ability to convey different emotions and styles."
                 year="2020 - Now"
               />
             </div>

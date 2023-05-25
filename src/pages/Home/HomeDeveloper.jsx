@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
-import { Link } from "react-scroll";
-import SocialMedia from "../../components/SocialMedia";
 
-import profile from "../../assets/images/malenobg.png";
+import SocialMedia from "../../components/SocialMedia";
+import profile from "../../assets/images/avatar-home-developer.png";
 import { personalinfo } from "../../utils/constants";
 
-function Hero6() {
+export default function HomeDeveloper() {
   useEffect(() => {
     const typed = new Typed(".typed-animation", {
       strings: [
@@ -27,6 +26,11 @@ function Hero6() {
   }, []);
 
   return (
+   /* This is a React component that represents the home page of a developer's portfolio website. It
+   includes a section with a hero image and a grid layout with information about the developer,
+   including their name, skills, and experience. The component also includes a social media section
+   and a button to download the developer's CV. The `Typed` library is used to create a typing
+   animation for the developer's skills. */
     <section id="hero" className="text-gray-600 mt-20 md:mt-0 mb-10 md:mb-0">
       <div className="flex-col grid grid-cols-4 md:grid-cols-8 lg:gap-8">
         {/* Left Side */}
@@ -51,7 +55,7 @@ function Hero6() {
           <div className="text-left">
             <div className="mb-2">
               <code className="text-gray-500 dark:text-gray-400">
-                const me = [ Multitalent developer, Fast Worker ];
+                const Me = [ Multitalent developer, Fast Worker ];
               </code>
             </div>
             <div className="flex flex-col md:flex-row gap-4 mt-4 md:items-center">
@@ -76,7 +80,7 @@ function Hero6() {
         {/* Avatar */}
         <div className="flex justify-center md:col-span-3 col-span-2 bg-gradient-to-bl from-primary-600 to-primary-500">
           <img
-            className="object-cover h-[50vh] md:h-screen object-center rounded grayscale"
+            className="object-cover md:h-screen object-center rounded grayscale"
             alt="profile"
             src={profile}
           />
@@ -91,13 +95,13 @@ function Hero6() {
           </div>
           <div>
             <h2 className="title-font font-semibold text-3xl text-primary-500 hover:scale-110 transition-transform">
-              100%
+              100k+
             </h2>
-            <p className="dark:text-gray-200 font-semibold">Satisfaction</p>
+            <p className="dark:text-gray-200 font-semibold">Lines Code</p>
           </div>
           <div>
             <h2 className="title-font font-semibold text-3xl text-primary-500 hover:scale-110 transition-transform">
-              5Yrs
+              6Yrs
             </h2>
             <p className="dark:text-gray-200 font-semibold">Experience</p>
           </div>
@@ -106,5 +110,3 @@ function Hero6() {
     </section>
   );
 }
-
-export default Hero6;

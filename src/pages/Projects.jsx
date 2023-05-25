@@ -3,6 +3,13 @@ import Header from "../components/Header";
 import ProjectImgCard from "../components/ProjectImgCard";
 
 function Projects() {
+/* This is a React component that renders a section containing a header and multiple
+`ProjectImgCard` components. The `data-aos` attribute is used for animating the section using
+the AOS library. The `id` and `className` attributes are used for styling purposes. The `Header`
+component renders a header with a main text, back text, and alignment. The `ProjectImgCard`
+components render a card with an image, title, and description. The `flex` and `justify-center`
+classes are used for centering the cards within the section. */
+
   return (
     <section
       data-aos="fade-up"
@@ -10,52 +17,6 @@ function Projects() {
       className="section-p section-color-sec"
     >
       <Header mainText="MY WORKS" backText="PROJECTS" align="center" />
-
-      {/* <div className='mt-10'>
-        <div className="grid sm:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
-        
-          <a data-aos='fade-up' href="#" className="group h-64 md:h-80 flex items-end bg-gray-100 overflow-hidden shadow-lg relative">
-            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80" loading="lazy" alt="Photo by Magicle" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-
-            <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
-
-            <span className="inline-block text-white text-sm md:text-lg relative ml-4 md:ml-5 mb-3">Design</span>
-          </a>
-
-          <a data-aos='fade-up' href="#" className="group h-64 md:h-80 md:col-span-2 flex items-end bg-gray-100 overflow-hidden shadow-lg relative">
-            <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" loading="lazy" alt="Photo by Minh Pham" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-
-            <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
-
-            <span className="inline-block text-white text-sm md:text-lg relative ml-4 md:ml-5 mb-3">VR</span>
-          </a>
-
-          <a data-aos='fade-up' href="#" className="group h-64 md:h-80 md:col-span-2 flex items-end bg-gray-100 overflow-hidden shadow-lg relative">
-            <img src="https://images.unsplash.com/photo-1605134550917-5fe8cf25a125?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" loading="lazy" alt="Photo by Martin Sanchez" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-
-            <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
-
-            <span className="inline-block text-white text-sm md:text-lg relative ml-4 md:ml-5 mb-3">Console</span>
-          </a>
-
-          <a data-aos='fade-up' href="#" className="group h-64 md:h-80 flex items-end bg-gray-100 overflow-hidden shadow-lg relative">
-            <img src="https://images.unsplash.com/photo-1585620385456-4759f9b5c7d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" loading="lazy" alt="Photo by Lorenzo Herrera" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-
-            <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
-
-            <span className="inline-block text-white text-sm md:text-lg relative ml-4 md:ml-5 mb-3">Tech</span>
-          </a>
-
-          <a data-aos='fade-up' href="#" className="group h-64 md:h-80 md:col-span-3 flex items-end bg-gray-100 overflow-hidden shadow-lg relative">
-            <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" loading="lazy" alt="Photo by Magicle" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-
-            <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
-
-            <span className="inline-block text-white text-sm md:text-lg relative ml-4 md:ml-5 mb-3">Game</span>
-          </a>
-
-        </div>
-      </div> */}
 
       <div className="flex flex-wrap justify-center mt-10">
         <div className="lg:w-1/4 md:w-2/4 flex flex-col px-2">      

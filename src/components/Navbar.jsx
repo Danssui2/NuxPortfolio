@@ -17,7 +17,11 @@ export default function Navbar() {
   };
 
   const changeBG = () => {
-    window.scrollY > 800 ? setIsScrolled(true) : setIsScrolled(false);
+    if (window.innerHeight > 800) {
+      window.scrollY > 800 ? setIsScrolled(true) : setIsScrolled(false);
+    } else {
+      window.scrollY > 600 ? setIsScrolled(true) : setIsScrolled(false);
+    }
   };
 
   useEffect(() => {

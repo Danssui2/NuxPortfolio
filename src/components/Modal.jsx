@@ -14,7 +14,7 @@ function Modal(props) {
         <h2 className="text-xl mb-6 text-gray-700 dark:text-gray-300">
           {props.title}
         </h2>
-        <div className="px-14">{props.children}</div>
+        <div className="px-14 relative">{props.children}</div>
       </div>
       <div
         onClick={props.onClose}

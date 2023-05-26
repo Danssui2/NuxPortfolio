@@ -1,6 +1,5 @@
 import React from "react";
 
-import AirBnb from "../assets/logos/Airbnb.svg";
 import Github from "../assets/logos/Github.svg";
 import Google from "../assets/logos/Google.svg";
 import Microsoft from "../assets/logos/Microsoft.svg";

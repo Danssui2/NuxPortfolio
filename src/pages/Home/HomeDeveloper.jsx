@@ -3,6 +3,7 @@ import Typed from "typed.js";
 
 import SocialMedia from "../../components/SocialMedia";
 import profile from "../../assets/images/avatar-home-developer.png";
+import { BsArrowDown } from "react-icons/bs";
 import { personalinfo } from "../../utils/constants";
 
 export default function HomeDeveloper() {
@@ -63,7 +64,7 @@ export default function HomeDeveloper() {
                 const My_Cv = () =&gt;
               </code>
               <a className="mr-3" href={personalinfo.cvLinkDownload}>
-                <button className="text-gray-700 dark:text-gray-200 border border-px border-gray-500 py-2 px-6 hover:brightness-110 text-center">
+                <button className="text-gray-200 bg-primary-500 py-2 px-6 hover:brightness-110 text-center">
                   Download CV
                 </button>
               </a>
@@ -106,6 +107,11 @@ export default function HomeDeveloper() {
             <p className="dark:text-gray-200 font-semibold">Experience</p>
           </div>
         </div>
+      </div>
+
+      <div className="md:absolute text-gray-600 dark:text-gray-300 bottom-10 left-20 flex items-center mt-4 md:mt-0 gap-5">
+        <BsArrowDown className="animate-bounce mt-2" />{" "}
+        Scroll Down
       </div>
     </section>
   );

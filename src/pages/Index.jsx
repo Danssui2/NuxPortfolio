@@ -21,7 +21,6 @@ import HomeModel from "./Home/HomeModel";
 import HomePhotographer from "./Home/HomePhotographer";
 
 import Modal from "../components/Modal";
-import { FiSettings } from "react-icons/fi";
 
 export default function Index() {
   /* This is a React component called "Index" that renders a webpage with multiple sections in a
@@ -36,6 +35,7 @@ specific order from top to bottom. */
   const HomeChangerButton = ({ home }) => {
     return (
       <button
+        className="bg-primary-500 text-gray-200 text-lg px-4 py-2"
         onClick={() => {
           setHome(home);
           setChanger(false);
@@ -69,7 +69,7 @@ specific order from top to bottom. */
       ) : null}
       {changer == true ? (
         <Modal title="Home Variations" onClose={() => setChanger(false)}>
-          <div className="flex flex-col h-full gap-2 items-start dark:text-gray-300 text-gray-600">
+          <div className="flex flex-col gap-2 dark:text-gray-300 text-gray-600">
             <HomeChangerButton home="Home1" />
             <HomeChangerButton home="Home2" />
             <HomeChangerButton home="Home3" />
@@ -82,9 +82,9 @@ specific order from top to bottom. */
       ) : null}
       <button
         onClick={() => setChanger(true)}
-        className="text-xl z-30 fixed bottom-20 right-10 dark:text-gray-300 text-gray-600 hover:scale-110 cursor-pointer bg-gray-100 dark:bg-gray-700 rounded-full p-2"
+        className="text-lg z-30 fixed bottom-20 right-10 dark:text-gray-300 text-gray-600 hover:scale-110 cursor-pointer bg-gray-100 dark:bg-gray-700 rounded-full py-2 px-4"
       >
-        <FiSettings/>
+        Change Home Design
       </button>
       <About />
       <Services />

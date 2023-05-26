@@ -50,8 +50,10 @@ export default function HomeDesigner() {
           </h1>
         </div>
 
-        <div className="h-[33rem] w-[22rem] hidden lg:block">
+        <div className="h-[33rem] w-[22rem] justify-center items-center hidden lg:flex">
           <img src={profile} className="flex z-20 absolute w-full" alt="" />
+          <div className="w-96 h-96 absolute bg-gradient-to-br from-primary-400 to-primary-600 rounded-full"></div>
+
         </div>
 
         <div className="gap-5 items-center absolute top-[70%] -left-[11.5rem] hidden lg:flex">

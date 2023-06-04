@@ -16,6 +16,13 @@ export default function HomeModel() {
     profile picture. */
     <section id='hero' className="text-gray-600 mt-24 pb-16">
       <div className='flex flex-col md:flex-row gap-12 md:items-center justify-center'>
+        {/* Mobile Image */}
+        <img
+          className="object-cover md:hidden md:w-1/3 w-5/6 object-center"
+          alt="profile"
+          src={profile}
+        />
+        
         <div className='md:w-1/2'>
           <div className='flex items-center gap-4 ml-2'>
             <h2 className='text-xl text-gray-500'>I'm Diora Nux</h2>
@@ -43,7 +50,7 @@ export default function HomeModel() {
           </div>
         </div>
         <img
-          className="object-cover md:w-1/3 w-5/6 object-center"
+          className="object-cover hidden md:block md:w-1/3 w-5/6 object-center"
           alt="profile"
           src={profile}
         />

@@ -81,7 +81,7 @@ export default function HomeDeveloper() {
         {/* Avatar */}
         <div className="flex justify-center md:col-span-3 col-span-2 bg-gradient-to-bl from-primary-600 to-primary-500">
           <img
-            className="object-cover md:h-screen object-center rounded grayscale"
+            className="object-cover md:h-screen object-center rounded"
             alt="profile"
             src={profile}
           />

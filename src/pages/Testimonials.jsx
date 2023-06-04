@@ -37,9 +37,9 @@ design for mobile devices. */
               name="Elise Xi"
             />
             <TestiCard
-              profile="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+              profile="https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
               comment="I am thoroughly impressed with the developer's skills and professionalism. They delivered a high-quality product and demonstrated excellent problem-solving abilities."
-              name="Francis Loute"
+              name="Jake Ronson"
             />
           </div>
           <div className="pt-10 pb-10 flex flex-col md:flex-row gap-6 gap-y-8 md:gap-y-0 justify-center">
@@ -61,9 +61,9 @@ design for mobile devices. */
               name="Linus Robert"
             />
            <TestiCard
-              profile="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+              profile="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=461&q=80"
               comment="The photographer's attention to detail and ability to capture moments that evoke emotion is remarkable. Working with them was a delightful experience."
-              name="Meilin Yan"
+              name="Eura Collins"
             />
           </div>
         </Carousel>

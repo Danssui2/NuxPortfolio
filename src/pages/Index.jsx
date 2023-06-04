@@ -11,6 +11,7 @@ import Footer from "../components/Footer";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Blog from "./Blog";
+import DarkModeSwitch from "../components/DarkModeSwitch";
 
 import Home1 from "./Home/Home1";
 import Home2 from "./Home/Home2";
@@ -82,10 +83,13 @@ specific order from top to bottom. */
       ) : null}
       <button
         onClick={() => setChanger(true)}
-        className="text-lg z-30 fixed bottom-20 right-10 dark:text-gray-300 text-gray-600 hover:scale-110 cursor-pointer bg-gray-100 dark:bg-gray-700 rounded-full py-2 px-4"
+        className="text-lg z-30 fixed bottom-20 right-20 hover:dark:text-gray-300 hover:text-gray-600 hover:scale-110 cursor-pointer hover:bg-gray-100 hover:dark:bg-gray-700 text-transparent rounded-full py-2 px-4"
       >
         Change Home Design
       </button>
+      <div className="fixed bottom-6 right-20 z-40">
+        <DarkModeSwitch />
+      </div>
       <About />
       <Services />
       <Projects />

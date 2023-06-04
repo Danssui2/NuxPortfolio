@@ -1,5 +1,4 @@
 import React from "react";
-import DarkModeSwitch from "./DarkModeSwitch";
 import { IoMdClose } from "react-icons/io";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { motion, useScroll } from "framer-motion";
@@ -157,10 +156,6 @@ export default function Navbar() {
           initial={{ scaleX: 0 }}
           style={{ scaleX: scrollYProgress }}
         ></motion.div>
-
-        <div className="fixed bottom-6 right-10 z-40">
-          <DarkModeSwitch />
-        </div>
       </header>
 
       {/* Nav Mobile*/}

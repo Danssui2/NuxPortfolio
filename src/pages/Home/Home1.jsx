@@ -6,6 +6,7 @@ import Typed from "typed.js";
 import profile from "../../assets/images/avatar-home1.png";
 import SocialMedia from "../../components/SocialMedia"
 import { personalinfo } from "../../utils/constants";
+import { BsArrowDown } from "react-icons/bs";
 
 export default function Home1() {
 
@@ -41,14 +42,14 @@ position and style the different elements. */
 
         {/* Left Side */}
         <div className="lg:flex-grow col-span-3 place-self-center max-w-xl flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center max-md:mt-5 text-center">
-          <p className="mb-4 text-gray-600 dark:text-gray-400">
-            - Lets me Introduce
+          <p className="mb-2 text-gray-600 dark:text-gray-400">
+            - Hi everyone
           </p>
-          <h2 className="title-font mb-4 lg:text-5xl text-4xl text-primary-500">
+          <h2 className="title-font mb-2 lg:text-5xl text-4xl text-primary-500">
             <span className="text-gray-700 dark:text-gray-200">I'm </span>
             <span className="typed-animation text-primary-500">Dior Nux</span>
           </h2>
-          <p className="mb-8  leading-relaxed text-gray-600 dark:text-gray-400">
+          <p className="mb-8 leading-relaxed text-gray-600 dark:text-gray-400">
             I am a versatile multitalent freelancer, adept at seamlessly navigating multiple professions and delivering exceptional result.
           </p>
           <div className="flex justify-center">
@@ -77,10 +78,15 @@ position and style the different elements. */
           </div>
         </div>
 
+        <div className="md:absolute bottom-10 text-gray-800 dark:text-gray-200 left-20 flex items-center mt-4 md:mt-0 gap-5">
+          <BsArrowDown className="animate-bounce mt-2" />{" "}
+          Scroll Down
+        </div>
+
         {/* Avatar */}
         <div className="md:h-screen flex justify-center col-span-4 clip1 bg-gradient-to-bl from-primary-600 to-primary-500">
           <img
-            className="object-cover h-full object-center rounded grayscale"
+            className="object-cover h-full object-center rounded"
             alt="profile"
             src={profile}
           />

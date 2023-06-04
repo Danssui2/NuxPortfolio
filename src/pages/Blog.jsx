@@ -33,7 +33,7 @@ CSS classes. */
           date="January 20 2023"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloribus, voluptatem, praesentium iusto maiores nemo adipisci id fuga magni magnam voluptas impedit eos sunt? Sunt nulla doloremque fugit earum facilis!"
           link="#"
-          img="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+          img="https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
         />
         <BlogCard
           title="Top 10 Models"

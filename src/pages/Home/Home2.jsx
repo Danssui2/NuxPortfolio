@@ -58,7 +58,7 @@ should scroll down. */
 
         <SocialMedia buttonStyle="bg-gray-100 dark:bg-gray-900/50 p-3 rounded"/>
 
-        <div className="md:absolute bottom-10 left-10 flex items-center mt-4 md:mt-0 gap-5">
+        <div className="md:absolute bottom-10 left-20 flex items-center mt-4 md:mt-0 gap-5">
           <BsArrowDown className="text-gray-900 dark:text-gray-200 animate-bounce mt-2" />{" "}
           Scroll Down
         </div>

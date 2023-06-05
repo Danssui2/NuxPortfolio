@@ -78,13 +78,9 @@ position and style the different elements. */
           </div>
         </div>
 
-        <div className="md:absolute bottom-10 text-gray-800 dark:text-gray-200 left-20 flex items-center mt-4 md:mt-0 gap-5">
-          <BsArrowDown className="animate-bounce mt-2" />{" "}
-          Scroll Down
-        </div>
 
         {/* Avatar */}
-        <div className="md:h-screen flex justify-center col-span-4 clip1 bg-gradient-to-bl from-primary-600 to-primary-500">
+        <div className="md:h-screen flex justify-center col-span-4 clip1 bg-gradient-to-bl from-primary-600 to-primary-400">
           <img
             className="object-cover h-full object-center rounded"
             alt="profile"
@@ -113,6 +109,12 @@ position and style the different elements. */
             <p className="dark:text-gray-200 font-semibold">Experience</p>
           </div>
         </div>
+
+        <div className="md:absolute bottom-10 text-gray-800 dark:text-gray-300 left-10 lg:left-20 flex items-center mt-8 md:mt-0 gap-5">
+          <BsArrowDown className="animate-bounce mt-2" />{" "}
+          Scroll Down
+        </div>
+
       </div>
     </section>
   );

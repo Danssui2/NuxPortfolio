@@ -31,27 +31,27 @@ The section is styled with CSS classes for text color, background color, and spa
       id="hero"
       className="relative text-gray-700 dark:text-gray-400 w-full"
     >
-      <img className="bg-[url('https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80')] bg-no-repeat bg-cover w-full h-full absolute inset-0 z-0 bg-center dark:brightness-[30%] brightness-105" alt="" />
+      <img className="bg-[url('https://images.unsplash.com/photo-1498429089284-41f8cf3ffd39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80')] bg-no-repeat bg-cover w-full h-full absolute inset-0 z-0 bg-center brightness-[40%] dark:brightness-[30%]" alt="" />
       <div className="h-screen"></div>
 
       <div className="absolute inset-0 z-10 flex justify-center items-center flex-col">
 
         <div className="flex flex-col gap-4 items-center mb-6">
-          <h2 className="text-gray-600 dark:text-gray-300">Welcome</h2>
+          <h2 className="text-gray-400 dark:text-gray-300">Welcome</h2>
           <h1 className="text-4xl xl:text-5xl font-semibold text-center text-primary-500 mb-2">
-            <span className="text-gray-700 dark:text-gray-100">I'm </span>
+            <span className="text-gray-200 dark:text-gray-100">I'm </span>
             <span className="typed-animation text-primary-500">Dior Nux</span>
           </h1>
-          <p className="text-gray-700 text-[16px] dark:text-gray-300 text-center">
+          <p className="text-gray-400 text-[16px] px-6 dark:text-gray-300 text-center">
             I am a versatile multitalent freelancer, adept at seamlessly navigating multiple professions.
           </p>
         </div>
 
-        <SocialMedia buttonStyle="dark:bg-gray-900/50 bg-gray-400/50 text-gray-700 dark:text-gray-400 p-3 rounded"/>
+        <SocialMedia buttonStyle="dark:bg-gray-900/50 bg-gray-300 text-gray-700 dark:text-gray-400 p-3 rounded"/>
 
-        <Link to="about" className="bg-transparent font-semibold border border-px border-gray-600 dark:border-gray-300 text-gray-600 dark:text-gray-300 mt-6 px-6 py-2 text-lg hover:scale-105 transition-transform">About Me</Link>
+        <Link to="about" className="bg-transparent font-semibold border border-px border-gray-400 dark:border-gray-300 text-gray-400 dark:text-gray-300 mt-6 px-6 py-2 text-lg hover:scale-105 transition-transform">About Me</Link>
 
-        <div className="md:absolute text-gray-300 dark:text-gray-200 bottom-10 left-10 flex items-center mt-4 md:mt-0 gap-5">
+        <div className="md:absolute text-gray-400 dark:text-gray-200 bottom-10 left-10 lg:left-20 flex items-center mt-4 md:mt-0 gap-5">
           <BsArrowDown className="animate-bounce mt-2" />{" "}
           Scroll Down
         </div>

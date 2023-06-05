@@ -39,7 +39,7 @@ should scroll down. */
           <div className="spinner w-full h-full rounded-full"></div>
           <div className="w-[92%] h-[92%] absolute flex justify-center roundclip bg-gray-100/90 dark:bg-gray-900/90">
             <img
-              className="object-cover object-center gray h-full"
+              className="object-cover object-center h-full"
               src={profile}
               alt="profile"
             />
@@ -58,7 +58,7 @@ should scroll down. */
 
         <SocialMedia buttonStyle="bg-gray-100 dark:bg-gray-900/50 p-3 rounded"/>
 
-        <div className="md:absolute bottom-10 left-20 flex items-center mt-4 md:mt-0 gap-5">
+        <div className="md:absolute bottom-10 left-10 lg:left-20 flex items-center mt-4 md:mt-0 gap-5">
           <BsArrowDown className="text-gray-900 dark:text-gray-200 animate-bounce mt-2" />{" "}
           Scroll Down
         </div>

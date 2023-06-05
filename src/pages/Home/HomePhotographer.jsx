@@ -10,7 +10,7 @@ export default function HomePhotographer() {
 
   useEffect(() => {
     const typed = new Typed(".typed-animation", {
-      strings: ["Dior Nux", "Photographer", "Video Editor", "Photo Editor"],
+      strings: ["Dior Nux", "Photograph", "Video Editor", "Photo Editor"],
       typeSpeed: 70,
       backSpeed: 60,
       backDelay: 3000,
@@ -37,7 +37,7 @@ export default function HomePhotographer() {
           </h2>
         </div>
 
-        <div className="md:h-screen mb-4 md:mb-0 md:col-span-6 xl:ml-6 w-fit flex justify-center bg-gradient-to-bl from-primary-600 to-primary-500">
+        <div className="md:h-screen mb-4 md:mb-0 md:col-span-6 xl:ml-6 w-fit flex justify-center bg-gradient-to-bl from-primary-600 to-primary-400">
           <img
             className="object-cover object-center rounded"
             alt="profile"

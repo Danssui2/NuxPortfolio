@@ -79,7 +79,7 @@ export default function HomeDeveloper() {
         </div>
 
         {/* Avatar */}
-        <div className="flex justify-center md:col-span-3 col-span-2 bg-gradient-to-bl from-primary-600 to-primary-500">
+        <div className="flex justify-center md:col-span-3 col-span-2 bg-gradient-to-bl from-primary-600 to-primary-400">
           <img
             className="object-cover md:h-screen object-center rounded"
             alt="profile"
@@ -109,7 +109,7 @@ export default function HomeDeveloper() {
         </div>
       </div>
 
-      <div className="md:absolute text-gray-600 dark:text-gray-300 bottom-10 left-20 flex items-center mt-4 md:mt-0 gap-5">
+      <div className="md:absolute text-gray-600 dark:text-gray-300 bottom-10 left-10 lg:left-20 flex items-center mt-4 md:mt-0 gap-5">
         <BsArrowDown className="animate-bounce mt-2" />{" "}
         Scroll Down
       </div>

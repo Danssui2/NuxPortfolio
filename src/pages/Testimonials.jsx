@@ -37,7 +37,7 @@ design for mobile devices. */
               name="Elise Xi"
             />
             <TestiCard
-              profile="https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+              profile="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
               comment="I am thoroughly impressed with the developer's skills and professionalism. They delivered a high-quality product and demonstrated excellent problem-solving abilities."
               name="Jake Ronson"
             />

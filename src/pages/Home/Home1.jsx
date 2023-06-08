@@ -19,10 +19,11 @@ export default function Home1() {
   useEffect(() => {
     const typed = new Typed(".typed-animation", {
       strings: ["Dior Nux", "Web Developer", "Photograper", "Model", "Designer"],
-      typeSpeed: 70,
-      backSpeed: 60,
-      backDelay: 3000,
-      loop: true,
+      typeSpeed: 90,
+      backSpeed: 70,
+      backDelay: 4000,
+      startDelay: 100,
+      loop: true
     });
 
     return () => {
@@ -64,7 +65,7 @@ position and style the different elements. */
               smooth={true}
               duration={500}
               offset={-150}
-              className="ml-4 cursor-pointer inline-flex text-gray-700 bg-gray-100 dark:bg-gray-700 dark:text-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:scale-105 text-lg"
+              className="ml-4 cursor-pointer text-center inline-flex text-gray-700 bg-gray-100 dark:bg-gray-700 dark:text-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:scale-105 text-lg"
             >
               Hire Me
             </Link>         

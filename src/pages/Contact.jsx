@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import MessageForm from "../components/MessageForm";
+import DetailsForm from "../components/DetailsForm";
 import Maps from "../components/Maps";
 
 function Contact() {
@@ -14,7 +14,7 @@ section has a fade-up animation effect applied to it using the data-aos attribut
     <section
       data-aos="fade-up"
       id="contact"
-      className="text-gray-600 section-p"
+      className="text-gray-600 w-full section-p"
     >
       <Header mainText="REACH ME OUT" backText="CONTACTS" align="center" />
       <div className="grid md:grid-cols-2 gap-6 md:gap-10 xl:gap-14 mt-10">
@@ -22,7 +22,7 @@ section has a fade-up animation effect applied to it using the data-aos attribut
           <Maps />
         </div>
         <div>
-          <MessageForm />
+          <DetailsForm/>
         </div>
       </div>
     </section>

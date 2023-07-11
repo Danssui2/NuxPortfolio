@@ -37,9 +37,9 @@ function DetailsForm() {
             Send me words
           </h2>
           <div className="flex w-[18rem] lg:w-[30rem] flex-col gap-4 max-w-2xl"> 
-            <input className="bg-gray-200 dark:bg-gray-900 text-gray-900 placeholder-gray-600 dark:text-gray-200 p-4 w-full" type="text" placeholder="Name"/>
-            <input className="bg-gray-200 dark:bg-gray-900 text-gray-900 placeholder-gray-600 dark:text-gray-200 p-4 w-full" type="text" placeholder="Email"/>
-            <textarea className="bg-gray-200 dark:bg-gray-900 text-gray-900 placeholder-gray-600 dark:text-gray-200 p-4 w-full" placeholder="Tell us your story" rows="3"></textarea>
+            <input className="bg-gray-200 dark:bg-gray-900 text-gray-900 placeholder-gray-600 dark:placeholder-gray-400 dark:text-gray-200 p-4 w-full" type="text" placeholder="Name"/>
+            <input className="bg-gray-200 dark:bg-gray-900 text-gray-900 placeholder-gray-600 dark:placeholder-gray-400 dark:text-gray-200 p-4 w-full" type="text" placeholder="Email"/>
+            <textarea className="bg-gray-200 dark:bg-gray-900 text-gray-900 placeholder-gray-600 dark:placeholder-gray-400 dark:text-gray-200 p-4 w-full" placeholder="Tell us your story" rows="3"></textarea>
             <button onClick={() => window.location = "mailto:youremail@gmail.com"} className="bg-primary-500 px-6 py-3 text-white font-medium md:w-fit">Send</button>
           </div>
         </div>

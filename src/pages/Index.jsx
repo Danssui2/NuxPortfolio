@@ -83,12 +83,12 @@ specific order from top to bottom. */
       ) : null}
       <button
         onClick={() => setChanger(true)}
-        className="text-lg z-30 fixed bottom-20 lg:right-20 right-10 hover:dark:text-gray-300 hover:text-gray-600 hover:scale-110 cursor-pointer hover:bg-gray-100 hover:dark:bg-gray-700 text-transparent rounded-full py-2 px-4"
+        className="text-lg z-30 fixed bottom-20 lg:right-20 right-10 hover:scale-110 cursor-pointer hover:bg-gray-100 hover:dark:bg-gray-700 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-full py-2 px-4"
       >
         Change Home Design
       </button>
       <div className="fixed bottom-6 lg:right-20 right-10 z-40">
-        <DarkModeSwitch />
+        <DarkModeSwitch defaultMode="dark" changeMode="true" />
       </div>
       <About />
       <Services />
